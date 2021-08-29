@@ -193,7 +193,7 @@ body {
   fill: currentColor;
 }
 .contacts:hover,
-.contacts:focus{
+.contacts:focus {
   color: var(--accent-color);
 }
 /*index*/
