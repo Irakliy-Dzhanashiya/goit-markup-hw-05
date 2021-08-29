@@ -194,7 +194,7 @@ body {
 }
 .contacts:hover,
 .contacts:focus{
-  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 /*index*/
 /*1st section*/
