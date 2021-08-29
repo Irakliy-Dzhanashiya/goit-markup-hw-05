@@ -547,19 +547,23 @@ body {
   padding: 0;
   list-style: none;
   text-decoration: none;
+  transition-property: box-shadow;
+  transition-duration: 2500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .goods:hover .poster_overlay,
 .goods:focus .poster_overlay {
   transform: translateY(0);
 }
+.goods:hover,
+.goods:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .port_item {
   width: 370px;
   margin: 15px;
   flex-basis: calc((100% - 3 * 30px) / 3);
-
-  transition-property: box-shadow;
-  transition-duration: 2500ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .services {
   display: flex;
